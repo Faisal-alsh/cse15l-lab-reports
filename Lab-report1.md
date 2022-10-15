@@ -21,8 +21,7 @@ To install VScode, start by visiting [https://code.visualstudio.com/download](ht
 ## Remotely Connecting:
 
 Open the terminal in VScode.
-![Uploading VsOpen.png…]()
-
+<img width="1470" alt="VsOpen" src="https://user-images.githubusercontent.com/51794365/195963367-c8d1586a-1895-406e-a537-4cd65accdcd3.png">
 
 Then, type `$ ssh cs15lwi22zz@ieng6.ucsd.edu.` and replace **cs15lwi22zz@ieng6.ucsd.edu.** with your own address
 
