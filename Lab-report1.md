@@ -33,7 +33,11 @@ You might see this massage if this was your frist time to connect:
 **Are you sure you want to continue connecting (yes/no/[fingerprint])?**
 
 
-**Enter yes
+**Enter yes**
+
+Then Enter Your password
+
+
 
 
 
