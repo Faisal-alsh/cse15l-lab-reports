@@ -2,7 +2,7 @@
 
 
 
-##Faisal Alshinaifi 
+## Faisal Alshinaifi 
 
 
   - [Installing VScode](#installing-vscode)
@@ -23,7 +23,7 @@ To install VScode, start by visiting [https://code.visualstudio.com/download](ht
 Open the terminal in VScode.
 <img width="1470" alt="VsOpen" src="https://user-images.githubusercontent.com/51794365/195963367-c8d1586a-1895-406e-a537-4cd65accdcd3.png">
 
-Then, type `$ ssh cs15lwi22zz@ieng6.ucsd.edu.` and replace **cs15lwi22zz@ieng6.ucsd.edu.** with your own address
+Then, type `$ ssh cs15lfa22zz@ieng6.ucsd.edu.` and replace **cs15lwi22zz@ieng6.ucsd.edu.** with your own address
 
 You might see this massage if this was your frist time to connect: 
 
@@ -68,4 +68,11 @@ Start by running `ssh-keygen` on your device, which will creates two files *publ
 
 <img width="1470" alt="Part7CSE15L" src="https://user-images.githubusercontent.com/51794365/195964252-ba2af35f-351c-42a0-9f67-ccc0b2ccf4f8.png">
 
+## Optimizing:
 
+To make running commands on the server a bit easier and faster you can do the following:
+
+```
+$ssh cs15lfa22zz@ieng6.ucsd.edu "cd"
+```
+<img width="566" alt="Part8" src="https://user-images.githubusercontent.com/51794365/195964781-f4aeb83f-cf69-4ecf-9503-d21794fbe6a8.png">
