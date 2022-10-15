@@ -16,7 +16,7 @@
 
 ## Installing IDE:
 
-To install VScode, start by visiting [https://code.visualstudio.com/download](https://code.visualstudio.com/download), then download the appropriate version. When you open the app, you should see something similar to this.
+ visit [https://code.visualstudio.com/download](https://code.visualstudio.com/download), then download it.
 
 ## Remotely Connecting:
 
