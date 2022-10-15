@@ -73,6 +73,6 @@ Start by running `ssh-keygen` on your device, which will creates two files *publ
 To make running commands on the server a bit easier and faster you can do the following:
 
 ```
-$ssh cs15lfa22zz@ieng6.ucsd.edu "cd"
+ ssh cs15lfa22ta1@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 <img width="566" alt="Part8" src="https://user-images.githubusercontent.com/51794365/195964781-f4aeb83f-cf69-4ecf-9503-d21794fbe6a8.png">
