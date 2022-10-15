@@ -5,12 +5,12 @@
 ## Faisal Alshinaifi 
 
 
-  - [Installing VScode](#installing-vscode)
+  - [Installing IDE](#installing-IDE)
   - [Remotely Connecting](#remotely-connecting)
-  - [Trying Some Commands](#trying-some-commands)
-  - [Moving Files with `scp`](#moving-files-with-scp)
+  - [NOW TRY SOME COMMANDS](#NOW-TRY-SOME-COMMANDS)
+  - [NOW We move Files with `scp`](#NOW-We-move-Files-with)
   - [Setting an SSH Key](#setting-an-ssh-key)
-  - [Optimizing Remote Running](#optimizing-remote-running)
+  - [Optimizing](#optimizing)
 
 
 
@@ -41,7 +41,7 @@ Then Somthing like this should show up:
 
 <img width="570" alt="Part2CSE15L" src="https://user-images.githubusercontent.com/51794365/195963748-96c59d80-5b4f-40ae-afd6-01fafa4a3381.png">
 
-**NOW TRY SOME COMMANDS!!**
+## NOW TRY SOME COMMANDS
 
 <img width="771" alt="Screen Shot 2022-10-14 at 6 48 00 PM" src="https://user-images.githubusercontent.com/51794365/195963817-3d0d4547-2514-4738-bbdd-a5863e6650bc.png">
  Cd.. lets you gp back a derictory
@@ -55,7 +55,7 @@ Then Somthing like this should show up:
  
 
 
-## NOW We move Files with `scp`:
+## NOW We move Files with `scp`
 
 <img width="771" alt="Screen Shot 2022-10-14 at 6 48 00 PM" src="https://user-images.githubusercontent.com/51794365/195964037-7c2b7b4d-a698-4b17-8b69-2eba7aeb6a27.png">
 
