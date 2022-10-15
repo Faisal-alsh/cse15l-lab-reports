@@ -15,8 +15,12 @@
 
 <img width="741" alt="Screen Shot 2022-10-14 at 8 10 25 PM" src="https://user-images.githubusercontent.com/51794365/195966377-16e52f63-f90a-47cc-9b56-d99edb81d39d.png">
 
-As seen in the photo below the highlited code is resposible for adding.
-<img width="1470" alt="Screen Shot 2022-10-14 at 8 12 47 PM" src="https://user-images.githubusercontent.com/51794365/195966478-f3128155-e359-4446-84be-b4a611f853a7.png">
+
+**As seen in the photo below the highlited code is resposible for adding.**
+
+
+<img width="725" alt="Screen Shot 2022-10-14 at 8 15 02 PM" src="https://user-images.githubusercontent.com/51794365/195966604-9e4bd04d-39f7-4de7-83d6-07492e5829c2.png">
+
 ---
 
 **However, searching is diffrent**
