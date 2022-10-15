@@ -8,9 +8,23 @@
   - [Search Engine](#Search-Engine)
   - 
 ---
+# Search Engine
+
 <img width="911" alt="Screen Shot 2022-10-14 at 8 09 36 PM" src="https://user-images.githubusercontent.com/51794365/195966375-a2d7cf75-9023-42e1-aab8-d58d41b724d1.png">
+
 
 <img width="741" alt="Screen Shot 2022-10-14 at 8 10 25 PM" src="https://user-images.githubusercontent.com/51794365/195966377-16e52f63-f90a-47cc-9b56-d99edb81d39d.png">
 
+As seen in the photo below the highlited code is resposible for adding.
+<img width="1470" alt="Screen Shot 2022-10-14 at 8 12 47 PM" src="https://user-images.githubusercontent.com/51794365/195966478-f3128155-e359-4446-84be-b4a611f853a7.png">
+---
+
+**However, searching is diffrent**
 
 <img width="1470" alt="Screen Shot 2022-10-14 at 8 12 47 PM" src="https://user-images.githubusercontent.com/51794365/195966400-53d9151a-82f1-47e1-ba1e-72d1d34be5d9.png">
+
+And this is the Code responsiple for searching a query:
+
+<img width="1470" alt="Screen Shot 2022-10-14 at 8 18 25 PM" src="https://user-images.githubusercontent.com/51794365/195966581-8476ab11-83c8-4a1b-b38c-8799fa5cf6f5.png">
+
+
