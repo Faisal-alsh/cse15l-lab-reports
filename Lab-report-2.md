@@ -1,7 +1,7 @@
 ### Lab Report 2
 # Extend  Server
 
-#Faisal Alshinaifi
+# Faisal Alshinaifi
 
 ### Table of content:
 
@@ -30,5 +30,11 @@
 And this is the Code responsiple for searching a query:
 
 <img width="1470" alt="Screen Shot 2022-10-14 at 8 18 25 PM" src="https://user-images.githubusercontent.com/51794365/195966581-8476ab11-83c8-4a1b-b38c-8799fa5cf6f5.png">
+
+
+
+---
+
+
 
 
