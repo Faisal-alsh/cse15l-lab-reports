@@ -5,15 +5,12 @@
 
 ### Table of content:
 
-  - [Search Engine](#Search-Engine)
-  - 
+  - [Part 1: Search Engine](#Part-1:-Search-Engine)
+  - [Part 2: Fixing Bugs](#Part-2:-Fixing-Bugs)
 ---
-# Search Engine
+# Part 1: Search Engine
 
 <img width="911" alt="Screen Shot 2022-10-14 at 8 09 36 PM" src="https://user-images.githubusercontent.com/51794365/195966375-a2d7cf75-9023-42e1-aab8-d58d41b724d1.png">
-
-
-<img width="741" alt="Screen Shot 2022-10-14 at 8 10 25 PM" src="https://user-images.githubusercontent.com/51794365/195966377-16e52f63-f90a-47cc-9b56-d99edb81d39d.png">
 
 
 **As seen in the photo below the highlited code is resposible for adding.**
@@ -35,7 +32,7 @@ And this is the Code responsiple for searching a query:
 
 ---
 
-# Part 2:
+# Part 2: Fixing Bugs
 
 ## Array reversed bug
 
