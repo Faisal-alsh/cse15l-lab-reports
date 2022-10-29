@@ -49,5 +49,20 @@ So to Fix the error I had to fill the newArray with the orignal array's values, 
 
 <img width="1470" alt="Screen Shot 2022-10-28 at 4 57 40 PM" src="https://user-images.githubusercontent.com/51794365/198753247-8c690afb-12a8-48b7-bb9e-dc31113f04b2.png">
 
+## List Merge Bug
+
+ As seen in the terminal the Testing of Merge on line 21 is not working.
+ 
+<img width="1470" alt="Screen Shot 2022-10-28 at 3 49 13 PM" src="https://user-images.githubusercontent.com/51794365/198753506-5ad49223-1816-4506-8308-c8eed7a0e64d.png">
+
+After inspecting the merge method in the ListExamples, I recognized that one of the loops would not end. The while loop in question is at line 41, The condition for the loop to end is if index2 is equal or grater than size. However, the index2 is not incrementing, insted index1 for some reason is increamting inside the loop. hmmmm somthing does not smell right... 
+
+<img width="1470" alt="Screen Shot 2022-10-28 at 5 48 00 PM" src="https://user-images.githubusercontent.com/51794365/198754235-02301d6e-4f30-449f-8266-3b69483b6c0e.png">
+
+So to fix it I just replaced "index1" with "index2".  And now the Test works YAY!
+
+<img width="1470" alt="Screen Shot 2022-10-28 at 5 50 22 PM" src="https://user-images.githubusercontent.com/51794365/198754316-862f5422-9871-4d04-b65f-3deefece043c.png">
+
+
 
 
