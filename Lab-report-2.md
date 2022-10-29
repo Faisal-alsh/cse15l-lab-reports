@@ -10,14 +10,19 @@
 ---
 # Part 1: Search Engine
 
+<img width="1470" alt="Screen Shot 2022-10-28 at 6 41 14 PM" src="https://user-images.githubusercontent.com/51794365/198759184-7965c6de-0a9e-4fab-a8dd-23640cfcba3d.png">
+
+
+
 <img width="911" alt="Screen Shot 2022-10-14 at 8 09 36 PM" src="https://user-images.githubusercontent.com/51794365/195966375-a2d7cf75-9023-42e1-aab8-d58d41b724d1.png">
 
 
-**As seen in the photo below the highlited code is resposible for adding.**
+**As seen in the photo below the highlited code is resposible for adding an apple string.**
 
 
 <img width="725" alt="Screen Shot 2022-10-14 at 8 15 02 PM" src="https://user-images.githubusercontent.com/51794365/195966604-9e4bd04d-39f7-4de7-83d6-07492e5829c2.png">
 
+So the code checks the path and see's that there is an add. so it runs through the rest of the url spliting thr query with "=" and adds each time to the array.
 ---
 
 **However, searching is diffrent**
@@ -28,7 +33,7 @@ And this is the Code responsiple for searching a query:
 
 <img width="1470" alt="Screen Shot 2022-10-14 at 8 18 25 PM" src="https://user-images.githubusercontent.com/51794365/195966581-8476ab11-83c8-4a1b-b38c-8799fa5cf6f5.png">
 
-
+The code checks if the path is /search, and then splits the query into an array with "=". after it compares the old array and checks if it has the string at question and if it does then it adds them in an array and returns said aray. 
 
 ---
 
