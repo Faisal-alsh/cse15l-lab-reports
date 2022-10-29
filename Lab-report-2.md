@@ -35,6 +35,22 @@ And this is the Code responsiple for searching a query:
 
 ---
 
+# Part 2:
+
+## Array reversed bug
+
+As Shown in the picture below  the testReversedTEST1 is failing, and is saying the the first index in theArray is 0 instead of 8.
+
+<img width="1470" alt="Screen Shot 2022-10-28 at 4 41 03 PM" src="https://user-images.githubusercontent.com/51794365/198752966-53f0e8b9-d826-4a6a-bf34-71498c2c89bb.png">
+
+
+So I went to the method of Reversed To diagnose the problem. When Tracking the code I noticed that issue was with the coping part, The NewAraay is Empty!LOOK AT Line 17!
+
+<img width="1470" alt="Screen Shot 2022-10-28 at 4 49 43 PM" src="https://user-images.githubusercontent.com/51794365/198753135-27527cd1-cc4b-487f-a722-5a1d69b61de1.png">
+
+So to Fix the error I had to fill the newArray with the orignal array's values, and then reverse copy it to the old array.
+
+<img width="1470" alt="Screen Shot 2022-10-28 at 4 57 40 PM" src="https://user-images.githubusercontent.com/51794365/198753247-8c690afb-12a8-48b7-bb9e-dc31113f04b2.png">
 
 
 
