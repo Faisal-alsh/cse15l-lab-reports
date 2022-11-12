@@ -1,6 +1,6 @@
 ### Lab Report 3
 
-Faisal Alshinaifi
+Faisal Alshinaifi. 
 
 # Researching Commands
 
