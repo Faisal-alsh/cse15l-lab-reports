@@ -1,4 +1,7 @@
 ### Lab Report 3
+
+Faisal Alshinaifi
+
 # Researching Commands
 
 ---
@@ -124,6 +127,9 @@ Number of Files that are larger than 100 kibibytes :
 
 Number of Files that are smaller than one kibibytes!
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 33 42 PM" src="https://user-images.githubusercontent.com/51794365/201457200-dfc3ae2a-72c3-44e8-91d7-b31e6861d5f4.png">
+
+
+THANK YOU!!
 
 Number of Files that are smaller than one byte : (SPOILER ALERT!: its zero):
 
