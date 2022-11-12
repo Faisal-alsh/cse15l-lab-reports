@@ -24,16 +24,15 @@ When running the command 'man find' I can find (Pun not intended or maybe it is.
               because IEEE PASC interpretation 126 requires  this.   This
               is a change from previous versions of findutils.
               
-             
+Examples:
+
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 17 46 PM" src="https://user-images.githubusercontent.com/51794365/201456689-6459a33a-0c19-4705-a111-a33df63c130b.png">
 
 
 You can  use "*" The star charectar to genrilize the search. For example In the screenshot below I have Search for anything that Starts with "chapters" it does not matter what comes after, this is the power of the Star charecter with the - name command.
-
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 18 33 PM" src="https://user-images.githubusercontent.com/51794365/201456700-6e2c7961-fd11-4302-80e4-25eb06fe8856.png">
 
 Now I have Searched for anything that Starts with a "s"
-
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 19 32 PM" src="https://user-images.githubusercontent.com/51794365/201456739-80cf6d72-b498-4a1c-9af0-71a8a56a3168.png">
 
 
@@ -62,20 +61,19 @@ Now I have Searched for anything that Starts with a "s"
               D      door (Solaris)
               
 
+Examples: 
+
 These are all the Directories in ./technical
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 20 47 PM" src="https://user-images.githubusercontent.com/51794365/201456774-a77bb0b1-5979-4559-a596-50511a17bcc9.png">
 
 These are all the Files in ./technical
-
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 21 42 PM" src="https://user-images.githubusercontent.com/51794365/201456804-fed9e7a8-b167-4cea-9d40-37e31abc5893.png">
 
 Result of the command:
-
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 21 59 PM" src="https://user-images.githubusercontent.com/51794365/201456810-eef6fcdd-0304-4d03-89b0-45e835504c73.png">
 
 
 These types are not in the ./technical folder
-
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 23 05 PM" src="https://user-images.githubusercontent.com/51794365/201456837-41245735-d0bf-4c59-9c4c-000b1e4a1f4d.png">
 
 
@@ -119,14 +117,22 @@ Lastly, to illustrate the use of the find command I used it with - size, This ex
               The former only matches empty  files,  the  latter  matches
               files from 0 to 1,048,575 bytes.
 
-
 Examples:
 
 Number of Files that are larger than 100 kibibytes :
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 32 08 PM" src="https://user-images.githubusercontent.com/51794365/201457157-a4f019b9-f35e-4070-a26d-af429a11ff90.png">
 
+
+
+
+
 Number of Files that are smaller than one kibibytes!
 <img width="1470" alt="Screen Shot 2022-11-11 at 8 33 42 PM" src="https://user-images.githubusercontent.com/51794365/201457200-dfc3ae2a-72c3-44e8-91d7-b31e6861d5f4.png">
+
+
+
+
+
 
 
 Number of Files that are smaller than one byte : (SPOILER ALERT!: its zero):
