@@ -55,6 +55,9 @@ fi
 
 ---
 
+
+# Testing
+
   - When running  Gradeserver.java it uses the grade.sh script to grade the ListExampels.
 
      Here are some examples of using the grader that we built on week 7
@@ -86,3 +89,77 @@ fi
     - Grade: 3/3
     
     
+# Trace the Script
+
+## I will trace example 2 : Compile Error
+
+```
+# Create your grading script here
+rm -rf student-submission
+git clone --quiet $1 student-submission
+cp TestListExamples.java student-submission
+cd student-submission
+ 
+```
+   - First   `rm -rf student-submission` removes any directory called `student-submission` so it becomes available.
+   - The `git clone --quiet $1 student-submission` clones the student-submission directory but supresses the output.
+   - Neither an standard error nor an standard output is produced.
+   - Exits with code `0 ` because the directory exsists.
+  
+  
+## Now for the testeing of the file:
+
+```
+# check if the ListExamples.java file matches the given specifications
+if [ -e ListExamples.java ]
+then
+    echo "File was found"
+else 
+    echo "The ListExamples.java file was not found"  // (will NOT run)
+    exit 1  // (will NOT run)
+fi
+```
+
+- The if statment Checks if the file exists by using `-e` 
+- `echo "File was found"`  basicly means print "File was found"
+-  No output/error will be produced thus exit code `0` 
+
+```
+if ! [[ $? -eq 0 ]]
+then
+   echo "There is a compiler error."
+   exit 
+else  // (will NOT run)
+   echo "Correctly compiled" // (will NOT run)
+fi  // (will NOT run)
+
+```
+ - the if statment checks if the file `ListExamples.java` does not compiles (psstt.. it does not)
+ -  Then the then statment is occurs.
+ -  ` echo "There is a compiler error."` prints "There is a compiler error."
+ -  Finally the code exits
+ -   The program finishes by exiting with a ` 0 ` code.
+
+```
+java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > result.txt // (will NOT run)
+
+echo "TestListExamples ran" // (will NOT run)
+cat result.txt // (will NOT run)
+
+failure=$(grep -i "Failures:" result.txt) // (will NOT run)
+tests=$(head -n 2 result.txt | tail -n 1 | grep -o "\." | wc -l) // (will NOT run)
+
+
+if [[ $failure == "" ]] // (will NOT run)
+then // (will NOT run)
+  echo "All tests passed. Good Job." // (will NOT run)
+else // (will NOT run)
+  echo "Failed tests:"  // (will NOT run)
+  echo $failure // (will NOT run)
+fi // (will NOT run)
+
+```
+
+
+
+
