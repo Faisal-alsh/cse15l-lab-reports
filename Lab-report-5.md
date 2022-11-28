@@ -138,7 +138,7 @@ fi  // (will NOT run)
  -  Then the then statment is occurs.
  -  ` echo "There is a compiler error."` prints "There is a compiler error."
  -  Finally the code exits
- -   The program finishes by exiting with a ` 0 ` code.
+ -   The program finishes by exiting with a `0` code.
 
 ```
 java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > result.txt // (will NOT run)
