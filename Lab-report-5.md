@@ -85,7 +85,7 @@ fi
  
  <img width="1470" alt="perfect" src="https://user-images.githubusercontent.com/51794365/204242923-0f4178aa-ff56-4df0-b6e6-4a8d5254231b.png">
 
-    - Repository: https://github.com/ucsd-cse15l-f22/list-methods-compile-error](https://github.com/ucsd-cse15l-f22/list-methods-corrected
+    - Repository: https://github.com/ucsd-cse15l-f22/list-methods-corrected
     - Grade: 3/3
     
     
@@ -107,7 +107,7 @@ cd student-submission
    - Exits with code `0 ` because the directory exsists.
   
   
-## Now for the testeing of the file:
+## Now for the testing of the file:
 
 ```
 # check if the ListExamples.java file matches the given specifications
