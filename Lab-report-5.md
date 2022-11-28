@@ -17,7 +17,7 @@ git clone --quiet $1 student-submission
 cp TestListExamples.java student-submission
 cd student-submission
 
-# check if the ListExamples.java file matches the given specifications
+
 if [ -e ListExamples.java ]
 then
     echo "File was found"
@@ -109,7 +109,6 @@ cd student-submission
 ## Now for the testing of the file:
 
 ```
-# check if the ListExamples.java file matches the given specifications
 if [ -e ListExamples.java ]
 then
     echo "File was found"
