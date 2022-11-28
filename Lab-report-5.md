@@ -40,7 +40,6 @@ echo "TestListExamples ran"
 cat result.txt
 
 failure=$(grep -i "Failures:" result.txt)
-tests=$(head -n 2 result.txt | tail -n 1 | grep -o "\." | wc -l)
 
 
 if [[ $failure == "" ]]
@@ -65,14 +64,14 @@ fi
 
 
  
- ## Example 1 : 
+ # Example 1 
  <img width="1470" alt="lab3" src="https://user-images.githubusercontent.com/51794365/204236860-f4dd35d9-0e7f-4ce7-bf87-e1e6206dec0b.png">
  
     - Repository: https://github.com/ucsd-cse15l-f22/list-methods-filename
     - Grade: 0/3
     
 
- ## Example 2 : 
+ # Example 2  
  
  <img width="1470" alt="compileError" src="https://user-images.githubusercontent.com/51794365/204242142-470846d1-cd36-473b-9f55-32f5bdd47563.png">
 
@@ -81,7 +80,7 @@ fi
     - Grade: N/A - Compiler error
    
    
- ## Example 3 : 
+ # Example 3  
  
  <img width="1470" alt="perfect" src="https://user-images.githubusercontent.com/51794365/204242923-0f4178aa-ff56-4df0-b6e6-4a8d5254231b.png">
 
@@ -147,7 +146,6 @@ echo "TestListExamples ran" // (will NOT run)
 cat result.txt // (will NOT run)
 
 failure=$(grep -i "Failures:" result.txt) // (will NOT run)
-tests=$(head -n 2 result.txt | tail -n 1 | grep -o "\." | wc -l) // (will NOT run)
 
 
 if [[ $failure == "" ]] // (will NOT run)
